@@ -1,5 +1,5 @@
 ---
-date: 2013-03-19 22:55:00
+date: 2013-07-26 22:55:00
 layout: post
 slug: hello
 title: Hello Github Pages
