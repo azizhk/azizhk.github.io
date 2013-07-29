@@ -8,7 +8,7 @@ category: hello
 tags: [Hello]
 ---
 
-So a really long time after I had seen my friend Amanpreet Singh's website on Github Pages, I have developed my own.
+So a really long time after I had seen my friend Amanpreet Singh's [website](http://aps-sids.github.io/) on Github Pages, I have developed my own.
 
 ## Getting Started
 
