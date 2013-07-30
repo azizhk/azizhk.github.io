@@ -1,8 +1,24 @@
----
-layout: atom
----
-{% for post in site.posts %}
-  {% if forloop.index < 10 %}
-    {% include atom_post.xml %}
-  {% endif %}
-{% endfor %}
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+   <title>Aziz H K</title>
+  
+  <link href="http://azizhk.github.io/"/>
+  <link type="application/atom+xml" rel="self" href="http://azizhk.github.io/atom.xml"/>
+  <updated>2013-07-30T22:37:39+05:30</updated>
+  <id>http://azizhk.github.io/</id>
+  <author>
+    <name>Aziz H K</name>
+    <email>aziz.h.khambati@gmail.com</email>
+  </author>
+  <rights>Copyright &#169; 2013 Aziz H K. All rights reserved.</rights>
+  
+  
+    Included file 'atom_post.xml' not found in _includes directory
+  
+
+  
+    Included file 'atom_post.xml' not found in _includes directory
+  
+
+</feed>
