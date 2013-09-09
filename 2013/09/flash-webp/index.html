@@ -10,15 +10,15 @@
     <link href="//themes.googleusercontent.com" rel="dns-prefetch">
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     
-      <title>Jquery Vibrate &ndash; Aziz H K</title>
-      <meta content="Jquery Vibrate" property="og:title">
-      <meta content="Jquery Vibrate" name="twitter:title">
+      <title>Flash + WebP &ndash; Aziz H K</title>
+      <meta content="Flash + WebP" property="og:title">
+      <meta content="Flash + WebP" name="twitter:title">
     
     <meta content="Aziz H K" property="og:site_name">
     
-      <meta content="jQuery Vibrate Plugin is a jQuery component, self-contained, that allows you to have "vibrating" tags in your page, like buttons, DIVs, etc." name="description">
-      <meta content="jQuery Vibrate Plugin is a jQuery component, self-contained, that allows you to have "vibrating" tags in your page, like buttons, DIVs, etc." property="og:description">
-      <meta content="jQuery Vibrate Plugin is a jQuery component, self-contained, that allows you to have "vibrating" tags in your page, like buttons, DIVs, etc." name="twitter:description">
+      <meta content="Leverage Google's WebP, An image format for the Web to speed up the loading time of your Flash Projects." name="description">
+      <meta content="Leverage Google's WebP, An image format for the Web to speed up the loading time of your Flash Projects." property="og:description">
+      <meta content="Leverage Google's WebP, An image format for the Web to speed up the loading time of your Flash Projects." name="twitter:description">
     
     <meta content="Aziz Khambati" name="author">
     <!--Credits (Copied From)
@@ -28,17 +28,17 @@
     <meta content="@DavidEnsinger" name="twitter:creator">
     -->
     <link href="/favicon.ico" rel="shortcut icon">
-    <link href="http://azizhk.github.io/2013/09/jquery-vibrate/" rel="canonical">
+    <link href="http://azizhk.github.io/2013/09/flash-webp/" rel="canonical">
     
       <meta content="article" property="og:type">
     
     <meta content="summary" name="twitter:card">
     
-      <meta content="http://azizhk.github.io/2013/09/jquery-vibrate/" property="og:url">
-      <meta content="http://azizhk.github.io/2013/09/jquery-vibrate/" name="twitter:url">
+      <meta content="http://azizhk.github.io/2013/09/flash-webp/" property="og:url">
+      <meta content="http://azizhk.github.io/2013/09/flash-webp/" name="twitter:url">
     
     
-      <meta content="2013-09-03T22:55:00+05:30" property="article:published_time">
+      <meta content="2013-09-10T04:30:00+05:30" property="article:published_time">
       <meta content="http://azizhk.github.io/about/" property="article:author">
     
     
@@ -47,14 +47,14 @@
     
     
       
-      <meta property="article:section" content="web development">
+      <meta property="article:section" content="adobe flash">
       
     
     
       
-      <meta property="article:tag" content="Javascript">
+      <meta property="article:tag" content="Flash">
       
-      <meta property="article:tag" content="jQuery">
+      <meta property="article:tag" content="WebP">
       
     
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600" rel="stylesheet" type="text/css">
@@ -113,28 +113,82 @@
 
 <article class="post hentry">
   <header class="entry-header">
-    <h1 class="entry-title">Jquery Vibrate</h1>
+    <h1 class="entry-title">Flash + WebP</h1>
     <div class="entry-meta entry-meta-header">
       <span class="icon-calendar"></span>
-      <time class="date updated" datetime="2013-09-03T22:55:00+05:30">September 03, 2013</time>
+      <time class="date updated" datetime="2013-09-10T04:30:00+05:30">September 10, 2013</time>
     </div>
   </header>
   <div class="entry-content">
-    <p>jQuery Vibrate Plugin is a jQuery component, self-contained, that allows you to have &ldquo;vibrating&rdquo; tags in your page, like buttons, DIVs, etc. It is very simple to use and integrate, and lightweight (only 3.54 kB in minified version)!</p>
+    <blockquote><p>WebP is a new image format that provides lossless and lossy compression for images on the web. WebP lossless images are 26% smaller in size compared to PNGs. WebP lossy images are 25-34% smaller in size compared to JPEG images at equivalent SSIM index. WebP supports lossless transparency (also known as alpha channel) with just 22% additional bytes. Transparency is also supported with lossy compression and typically provides 3x smaller file sizes compared to PNG when lossy compression is acceptable for the red/green/blue color channels.</p>
 
-<p>It was developed by <a href="https://github.com/albertoarena">albertoarena</a>. You can see his version <a href="https://github.com/albertoarena/jquery-vibrate">here</a> and his demo site <a href="http://www.dev4web.eu/projects/jquery.vibrate/">here</a>.</p>
+<p><cite><a href="https://developers.google.com/speed/webp/">Google Developers</a></cite></p></blockquote>
 
-<p>I modified it to add the Vibrate for a fixed Period and a callback function when the vibration gets over. It is my very first jQuery Plugin and my very first fork on github. ☺ I used it in my game <a href="http://ttt2-termvader.rhcloud.com/">Tic Tac Toe Square</a> when notifying users about incorrect move.</p>
+<p>WebP is supported by a variety of tools. In addition, it is now natively supported in Google Chrome, the Google Chrome Frame plug-in for Internet Explorer, Opera 11.10 and Android Ice Cream Sandwich. But it still is not supported by Firefox, Internet Explorer and many others. So Web Developers still have to provide fallbacks for this format. Either they have to use <a href="http://libwebpjs.hohenlimburg.org/">LibWebPJS</a> or serve both web-p and jpg/png.</p>
 
-<h2>Demo</h2>
+<p>Luckily for Flash developers, who always have had no problems worrying about working across various platforms as that work is done by the Flash Player itself. There are multiple libraries which we can use.</p>
 
-<h3>For Vibration based on events and triggers</h3>
+<ul>
+    <li><a href="http://unitzeroone.com/blog/2011/11/20/webp-decoder-for-flash/" target="_blank">Webplib.swc by UnitZeroOne</a></li>
+    <li><a href="http://www.etherdream.com/webp/" target="_blank">zjcqoo's Implementation</a></li>
+    <li><a href="http://www.sineysoft.com/post/114" target="_blank">Sineysoft's Implementation</a></li>
+</ul>
 
-<p>Check out albertoarena&rsquo;s website: <a href="http://www.dev4web.eu/projects/jquery.vibrate/">http://www.dev4web.eu/projects/jquery.vibrate/</a></p>
 
-<h3>Fixed Period of Vibrate</h3>
+<p>Somehow UnitZeroOne&rsquo;s and zjcqoo&rsquo;s implementation gave me some problems. Probably I was using the latest version of the convertor and they were not. Also Sineysoft&rsquo;s version supported transparency, did not try that with the others. So I used Sineysoft&rsquo;s. Unfortunately his swc is very bulky, roughly 300 KB. So it would be of use if the difference between your jpg images and webp images is less than 300 KB.</p>
 
-<p>Go <a href="http://termvader.github.io/jquery-vibrate/">here</a>.</p>
+<p>You can see my work <a href="http://www.bits-oasis.org/2011/webp/">here</a>. Its an old, unused site for our college&rsquo;s cultural festival which I had built. The base site was ~4 MB while now its 2.1 MB. I have ported the panorama in the background only, nothing else.</p>
+
+<h2>Code</h2>
+
+<p>Download webpswc.swc from <a href="https://github.com/termvader/WebPDemo/blob/master/lib/webpswc.swc?raw=true">here</a>.</p>
+
+<p>Get the FlashDevelop Project from <a href="https://github.com/termvader/WebPDemo" target="_blank">here</a>.</p>
+
+<p>Or Just the code.</p>
+
+<div class="highlight">
+<pre><code>package 
+{
+    import sineysoft.WebpSwc;
+    import flash.display.Bitmap;
+    import flash.display.BitmapData;
+    import flash.display.Sprite;
+    import flash.display.StageAlign;
+    import flash.display.StageScaleMode;
+    import flash.events.Event;
+    import flash.utils.ByteArray;
+    
+    public class Main extends Sprite 
+    {
+        [Embed(source = "WebPImage.webp", mimeType = "application/octet-stream")]
+        private const WebPImageClass:Class;
+        
+        public function Main():void 
+        {
+            if (stage) init();
+            else addEventListener(Event.ADDED_TO_STAGE, init);
+        }
+        
+        private function init(e:Event = null):void 
+        {
+            removeEventListener(Event.ADDED_TO_STAGE, init);
+            stage.scaleMode = StageScaleMode.NO_SCALE;
+            stage.align = StageAlign.TOP_LEFT;
+            
+            var bitmapData:BitmapData = WebpSwc.decode(new WebPImageClass() as ByteArray);
+            var bitmap:Bitmap = new Bitmap(bitmapData);
+            bitmap.scaleX = 0.5;
+            bitmap.scaleY = 0.5;
+            addChild(bitmap);
+            // entry point
+        }   
+    }   
+}</code></pre>
+</div>
+
+
+<p>You can also load the image at runtime, not having to embed it in the swf itself. I&rsquo;ll add code for that also, soon.</p>
 
   </div>
   
@@ -142,16 +196,16 @@
       <span class="icon-tag"></span>
       <span class="entry-meta-icon">
         
-          <a class="nav-link-tag" href="../../../tag/javascript" rel="tag" title="See Posts Tagged with Javascript">Javascript</a>, 
+          <a class="nav-link-tag" href="../../../tag/flash" rel="tag" title="See Posts Tagged with Flash">Flash</a>, 
         
-          <a class="nav-link-tag" href="../../../tag/jquery" rel="tag" title="See Posts Tagged with jQuery">jQuery</a>
+          <a class="nav-link-tag" href="../../../tag/webp" rel="tag" title="See Posts Tagged with WebP">WebP</a>
         
       </span>
       
         <span class="icon-folder"></span>
         <span class="entry-meta-icon">
           
-            <a class="nav-link-category" href="../../../categories/web-development" rel="category" title="See Posts Categorized with Web development">Web development</a>
+            <a class="nav-link-category" href="../../../categories/adobe-flash" rel="category" title="See Posts Categorized with Adobe flash">Adobe flash</a>
           
         </span>
       
@@ -171,13 +225,9 @@
   <h1 class="visuallyhidden">Post navigation</h1>
   
     <div class="nav-previous">
-      <a class="nav-previous-link" href="http://azizhk.github.io/2013/08/tic-tac-toe-square-two-player/" rel="prev"><span class="icon-arrow-down-left"></span>Tic Tac Toe Square - 2 Player</a>
+      <a class="nav-previous-link" href="http://azizhk.github.io/2013/09/jquery-vibrate/" rel="prev"><span class="icon-arrow-down-left"></span>Jquery Vibrate</a>
     </div>
   
-  
-    <div class="nav-next">
-      <a class="nav-next-link" href="http://azizhk.github.io/2013/09/flash-webp/" rel="next">Flash + WebP<span class="icon-arrow-down-right"></span></a>
-    </div>
   
 </nav>
         </div>
